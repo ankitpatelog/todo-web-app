@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nata Sans", sans-serif;
+}
+
+.main {
+  background: rgb(72, 211, 125);
+  color: black;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.logo {
+  font-size: xx-large;
+  font-family: 500;
+  
+}
+

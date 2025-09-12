@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nata Sans", sans-serif;
+}
+
+.content {
+  height: 40vw;
+  max-height: auto;
+  width: 50vw;
+  overflow-y: auto;
+  background-color: rgb(158, 253, 217);
+  border-radius: 7px;
+  color: white;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.heading {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-align: center;
+}
+
+.adder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.heading-2 , .curr-todos {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: flex;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.inputbox {
+  height: 30px;
+  width: 32vw;
+  border-radius: 5px;
+  border: rgb(158, 253, 217);
+  color: rgb(0, 0, 0);
+}
+
+.btn ,.edit , .remove {
+  height: 30px;
+  background-color: rgb(53, 184, 134);
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.curr-todos {
+  margin-top: 70px;
+}
+
+.act-todos{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 12px;
+}
+
+.check{
+  display: flex;
+}
+
+.act-btn{
+  display: flex;
+  gap: 10px;
+}
+
+.work{
+color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: flex;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
