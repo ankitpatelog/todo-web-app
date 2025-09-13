@@ -5,7 +5,7 @@
 }
 
 .content {
-  height: 40vw;
+  height: 400px;
   max-height: auto;
   width: 50vw;
   overflow-y: auto;
@@ -18,7 +18,7 @@
 
 .heading {
   color: rgb(0, 0, 0);
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -29,7 +29,8 @@
   margin-top: 15px;
 }
 
-.heading-2 , .curr-todos {
+.heading-2,
+.curr-todos {
   color: rgb(0, 0, 0);
   font-size: 20px;
   display: flex;
@@ -45,7 +46,9 @@
   color: rgb(0, 0, 0);
 }
 
-.btn ,.edit , .remove {
+.btn,
+.edit,
+.remove {
   height: 30px;
   background-color: rgb(53, 184, 134);
   border: none;
@@ -59,26 +62,54 @@
   margin-top: 70px;
 }
 
-.act-todos{
+.act-todos {
   justify-content: space-between;
   display: flex;
   margin-top: 12px;
 }
 
-.check{
+.check {
   display: flex;
 }
 
-.act-btn{
+.act-btn {
   display: flex;
   gap: 10px;
 }
 
-.work{
-color: rgb(0, 0, 0);
+.work {
+  color: rgb(0, 0, 0);
   font-size: 20px;
   display: flex;
   margin-left: 10px;
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  .content {
+    height:400px;
+    max-height: auto;
+    width: 50vw;
+    overflow-y: auto;
+    background-color: rgb(158, 253, 217);
+    border-radius: 7px;
+    color: white;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 531px) {
+  .heading{
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 350px) {
+  .heading{
+    font-size: 8vw;
+  }
+  .content{
+    width: 70vw;
+  }
+}
